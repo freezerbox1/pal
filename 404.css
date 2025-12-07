@@ -1,0 +1,33 @@
+body {
+    background-color: #1f2326;
+    color:aliceblue;
+    text-align: center;
+}
+
+@font-face {
+  font-family: Alliance; 
+  src: url(Alliance.otf); 
+}
+h1 {
+    font-family:Alliance;
+    font-size:4.6rem;
+    font-weight: normal;
+}
+h2 {
+    font-family:Calibri;
+    font-weight: normal;
+    font-size:1.6rem;
+    
+}
+
+a {
+    background-color: #58ac54;
+    padding:1rem;
+    font-size: 1rem;
+    color:azure;
+    transition: transform 0.3s ease-in-out;
+}
+
+a.hover {
+    transform: scale(1.2);
+}
